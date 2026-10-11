@@ -16,6 +16,7 @@
 		publications: "<path d='M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z'/><path d='M14 2v5h5'/><path d='M16 13H8M16 17H8M10 9H8'/>",
 		education: "<path d='M21.4 10.9a1 1 0 0 0 0-1.8L12.8 5.2a2 2 0 0 0-1.6 0L2.6 9.1a1 1 0 0 0 0 1.8l8.6 3.9a2 2 0 0 0 1.6 0z'/><path d='M22 10v6'/><path d='M6 12.5V16a6 3 0 0 0 12 0v-3.5'/>",
 		funding: "<circle cx='12' cy='8' r='6'/><path d='m15.5 12.9 1.5 8.5-3.6-2.7a1 1 0 0 0-1.2 0L8.6 21.4l1.5-8.5'/>",
+		talks: "<path d='M2 3h20'/><path d='M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3'/><path d='m7 21 5-5 5 5'/>",
 		blog: "<path d='M12 20h9'/><path d='M16.4 3.6a1 1 0 0 1 3 3L7.4 18.6a2 2 0 0 1-.9.5l-2.9.8.8-2.9a2 2 0 0 1 .5-.9z'/>",
 		cv: "<path d='M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z'/><path d='M14 2v5h5'/><path d='M12 18v-6'/><path d='m9 15 3 3 3-3'/>",
 		mail: "<rect width='20' height='16' x='2' y='4' rx='2'/><path d='m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7'/>",
@@ -43,6 +44,12 @@
 			'publications',
 			'Publications',
 			'publications'
+		],
+		[
+			'talks.html',
+			'talks',
+			'Talks, Presentations &amp; Works',
+			'talks'
 		],
 		[
 			'education.html',
@@ -959,6 +966,7 @@
 		'research-interests',
 		'ongoing-research',
 		'publications',
+		'talks',
 		'education',
 		'funding',
 		'blog'

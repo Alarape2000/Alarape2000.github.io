@@ -1453,6 +1453,88 @@ section.block {
 		grid-column: 2;
 	}
 }
+/* ---- Schmidt Sciences footer logo ---- */
+.foot-logos img.schmidt {
+	height: 42px;
+}
+
+/* ---- News (blog page) ---- */
+.news {
+	margin-top: 22px;
+}
+.news-year {
+	display: grid;
+	grid-template-columns: 74px 1fr;
+	gap: 22px;
+	padding: 26px 0;
+	border-bottom: 1px solid var(--line-2);
+}
+.news-year:first-child {
+	padding-top: 6px;
+}
+.news-year:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.news-year .ny {
+	font-family: 'Space Grotesk';
+	font-weight: 600;
+	font-size: 1.5rem;
+	letter-spacing: -0.02em;
+	color: var(--text);
+	line-height: 1.1;
+}
+.news-item {
+	padding: 0 0 18px 18px;
+	margin-left: 4px;
+	border-left: 1px solid var(--line);
+	position: relative;
+}
+.news-item:last-child {
+	padding-bottom: 0;
+}
+.news-item::before {
+	content: '';
+	position: absolute;
+	left: -4px;
+	top: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--water);
+}
+.news-item .nd {
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 0.74rem;
+	letter-spacing: 0.04em;
+	color: var(--faint);
+	text-transform: uppercase;
+}
+.news-item p {
+	color: var(--muted);
+	font-size: 0.96rem;
+	line-height: 1.62;
+	margin-top: 4px;
+	max-width: 74ch;
+}
+.news-item p strong {
+	color: var(--text);
+	font-weight: 500;
+}
+.news-item p a {
+	color: var(--water);
+	white-space: nowrap;
+}
+.news-item p a:hover {
+	text-decoration: underline;
+}
+@media (max-width: 640px) {
+	.news-year {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+}
+
 @media (prefers-reduced-motion: reduce) {
 	* {
 		animation: none !important;
